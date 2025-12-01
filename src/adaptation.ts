@@ -8,7 +8,7 @@ import {
   seqJsonToSeqn,
   seqnToSeqJson,
   seqnParser,
-} from "@nasa-jpl/aerie-sequence-languages";
+} from "@nasa-jpl/plandev-sequence-languages";
 
 function toInputFormat(output: string) {
   const seqJson = JSON.parse(output) as SeqJson;

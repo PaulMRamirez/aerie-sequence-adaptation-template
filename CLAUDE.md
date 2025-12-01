@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a template repository for creating AMMOS SeqDev sequence editor adaptations. It provides the scaffolding needed to build custom sequence adaptations that integrate with the Aerie sequencing system.
+This is a template repository for creating AMMOS SeqDev sequence editor adaptations. It provides the scaffolding needed to build custom sequence adaptations that integrate with the PlanDev sequencing system.
 
 The adaptation converts between SeqN (a human-readable sequence language) and SeqJSON (the JSON-based interchange format).
 
@@ -26,7 +26,7 @@ npm run test     # Run tests with Vitest
 
 ## Key Dependencies
 
-- `@nasa-jpl/aerie-sequence-languages` - Core language definitions and parsers
+- `@nasa-jpl/plandev-sequence-languages` - Core language definitions and parsers
 - `@nasa-jpl/seq-json-schema` - TypeScript types for SeqJSON format
 
 ## Node Version
